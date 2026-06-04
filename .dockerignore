@@ -1,0 +1,15 @@
+# version-control & editor junk
+.git/
+.vscode/
+.idea/
+
+# vendored deps (go modules handles these)
+vendor/
+
+# tests & mocks (not needed at runtime)
+*_test.go
+mocks/
+
+# misc build outputs
+*.exe
+*.out
